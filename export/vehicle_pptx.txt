@@ -1,0 +1,45 @@
+1/2
+A canc
+Marca
+Autobus
+Tipo
+6766676
+Matrícula
+175 cm3
+Modelo
+Azul claro
+Color
+10
+Capacidad de pasajeros
+1950
+Año de manufactura
+31/12/2017 16:00
+Fecha de registro
+1111
+Número de serie del motor
+2222
+Número de serie del chasis
+description
+Descripción
+Autobus A canc 175 cm3 Azul claro 6766676
+Vehículo
+27/08/2018 09:05
+Creado
+Por
+Miguel Martinez
+27/08/2018 09:05
+Modificado
+Por
+Miguel Martinez
+WS ID
+VH41
+
+2/2
+Etiquetas
+Asalto
+Archivos vinculados
+Organizaciones vinculadas
+Personas vinculadas
+Pablo Escobar (Arrendador)
+Persona 1
+

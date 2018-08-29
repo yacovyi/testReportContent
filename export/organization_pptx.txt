@@ -1,0 +1,56 @@
+1/3
+Negocios
+Cartel
+Tipo
+La Familia
+Nombre
+Activo
+Estatus
+31/12/2017
+Activa desde
+11
+Número de miembros
+777
+ID de compañía
+description
+Descripción
+Direcciones de correos electrónicos
+La Familia
+Organización
+27/08/2018 09:02
+Creado
+Por
+Miguel Martinez
+27/08/2018 09:02
+Modificado
+Por
+Miguel Martinez
+WS ID
+OR45
+Etiquetas
+
+2/3
+Archivos vinculados
+Organizaciones vinculadas
+Personas vinculadas
+Lugar y fecha
+Lugar y fecha
+México, México
+Lugar y fecha 1
+Coordenadas
+Latitud
+19.357589°
+Longitud
+-99.644945°
+Descripción
+Desde
+Hasta
+Redes sociales
+Sitios web
+Vehículos vinculados
+Inmuebles vinculados
+Teléfonos vinculados
+Armas vinculadas
+
+3/3
+

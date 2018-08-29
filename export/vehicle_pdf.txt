@@ -1,0 +1,28 @@
+Vehículo Autobus A canc 175 cm3 Azul
+claro 6766676
+WS ID VH41
+Creado 27/08/2018 09:05 Por Miguel Martinez
+Modificado 27/08/2018 09:05 Por Miguel Martinez
+Matrícula 6766676
+Tipo Autobus
+Marca A canc
+Modelo 175 cm3
+Color Azul claro
+Capacidad de 10
+pasajeros
+Año de 1950
+manufactura
+Fecha de 31/12/2017 16:00
+registro
+Número de serie 1111
+del motor
+Número de serie 2222
+del chasis
+Descripción description
+Etiquetas Asalto
+Organizaciones vinculadas
+Personas vinculadas
+Persona 1 Pablo Escobar (Arrendador)
+Archivos vinculados
+1 / 1
+

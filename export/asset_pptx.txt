@@ -1,0 +1,41 @@
+1/2
+Organizaciones vinculadas
+Etiquetas
+Asalto
+Casa
+Tipo
+10
+Área (m²)
+description
+Descripción
+Ubicación
+Ubicación
+México, México
+Ubicación 1
+Coordenadas
+Latitud
+19.357589°
+Longitud
+-99.644945°
+Descripción
+Desde
+Hasta
+Alejandro
+Inmueble
+27/08/2018 08:59
+Creado
+Por
+Miguel Martinez
+27/08/2018 08:59
+Modificado
+Por
+Miguel Martinez
+WS ID
+AS44
+
+2/2
+Archivos vinculados
+Personas vinculadas
+Pablo Escobar (Dueño)
+Persona 1
+

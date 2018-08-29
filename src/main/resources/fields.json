@@ -1,0 +1,55 @@
+{
+  "asset" : {
+    //"Nombre" : "Alejandro",
+    "Tipo" : "Casa",
+    "Descripción" : "description"
+  },
+  "organization" : {
+    //"Organizaciones" : "La Familia",
+    "Tipo" : "Cartel",
+    "Estatus" : "Activo",
+    //"Número de miembros" : "11",
+    //"ID" : "777",
+    //"Activa desde" : "01/01/2018",
+    "Descripción" : "description"
+  },
+  "person" : {
+    "Género": "Femenino",
+    "Estado civil" : "Casado(a)",
+    "Religión" : "Ateo",
+    "Ciudadano ilegal" : "Sí",
+    "RFC" : "RFC Data",
+    "CURP" : "curp",
+    "VISA para EUA" : "Sí",
+    "Grupo sanguíneo" : "A rh +"//,
+    //"Fecha de nacimiento" : "01/01/2010",
+    //"Fecha de defunción" : "01/01/2018"
+  },
+  "phone" : {
+    "Número" : "97250558877",
+    "Tipo" : "Casa",
+    "IMEI" : "IMEI",
+    "Descripción" : "description"
+  },
+  "vehicle" : {
+    "Tipo" : "Autobus",
+    "Marca" : "A canc",
+    "Modelo" : "175 cm3",
+    "Color" : "Azul claro",
+    //"Capacidad de pasajeros" : "10",
+    //"Año de manufactura" : "1950",
+    "Número de serie del motor" : "1111",
+    "Número de serie del chasis" : "2222",
+    //"Fecha de registro" : "01/01/2018",
+    "Descripción" : "description"
+  },
+  "weapon" : {
+    "Número de serie" : "76541223",
+    "Tipo" : "Ametralladora",
+    "Marca" : "Adi",
+    "Modelo" : "(1315) gas gun",
+    "Calibre mm" : "22###222 o 223 = 5.56 mm",
+    "Descripción" : "description"
+  }
+  
+}

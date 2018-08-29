@@ -1,0 +1,21 @@
+Inmueble Alejandro
+WS ID AS44
+Creado 27/08/2018 08:59 Por Miguel Martinez
+Modificado 27/08/2018 08:59 Por Miguel Martinez
+Nombre Alejandro
+Tipo Casa
+Área (m²) 10
+Descripción description
+Etiquetas Asalto
+Ubicación
+Ubicación 1
+Ubicación México, México
+Coordenadas Latitud 19.357589° Longitud -99.644945°
+Descripción
+Desde Hasta
+Organizaciones vinculadas
+Personas vinculadas
+Personas 1 Pablo Escobar (Dueño)
+Archivos vinculados
+1 / 1
+

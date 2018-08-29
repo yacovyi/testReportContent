@@ -1,0 +1,33 @@
+1/1
+Archivos vinculados
+Organizaciones vinculadas
+Personas vinculadas
+Pablo Escobar (Propietario)
+Persona 1
+Adi
+Marca
+76541223
+Número de serie
+Ametralladora
+Tipo
+(1315) gas gun
+Modelo
+22###222 o 223 = 5.56 mm
+Calibre mm
+description
+Descripción
+Etiquetas
+Asalto
+Ametralladora Adi (1315) gas gun
+Arma
+27/08/2018 09:00
+Creado
+Por
+Miguel Martinez
+27/08/2018 09:00
+Modificado
+Por
+Miguel Martinez
+WS ID
+WP43
+
