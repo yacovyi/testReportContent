@@ -14,6 +14,7 @@ public class ReportValidation {
     private Report report;
     private String exportFolder;
     private String reportsFolder;
+    private String content;
 
     ReportValidation(Report report, String reportsFolder,String exportFolder){
         this.report = report;
@@ -22,11 +23,15 @@ public class ReportValidation {
     }
     public void validateReport() throws TikaException, IOException, SAXException {
         String content = getFileContent();
-
+        this.content = content;
         saveContent(content);
         report.getFields().forEach(field -> {
             validateField(field,content);
         });
+    }
+
+    public String getContent() {
+        return content;
     }
 
     private void validateField(Field field, String content)
@@ -70,5 +75,6 @@ public class ReportValidation {
         File file =  Utils.getFile(fileName, this.getClass());
         return Utils.getFileContent(file);
     }
+
 }
 

@@ -51,7 +51,7 @@ public class Main {
              try {
                  reportValidation.validateReport();
                  report.getFields().forEach(field -> {
-                     Assertions.assertTrue(field.isValid(),String.format("%s\n%s",report,field.toString()));
+                     Assertions.assertTrue(field.isValid(),String.format("%s\n%s\n\ncan't find %s in %s\n\n### START CONTENT ###\n%s\n### END CONTENT ###\n", report, field.toString(),field.getPattern(), report.getFileName(),reportValidation.getContent()));
                  });
 
              } catch (IOException | TikaException | SAXException e) {
