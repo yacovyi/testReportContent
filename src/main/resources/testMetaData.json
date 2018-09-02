@@ -1,0 +1,718 @@
+[
+  {
+    "description" : "Test docx asset appendix",
+    "fileName" : "Alejandro.docx",
+    "entityType" : "Asset",
+    "format" : "docx",
+    "fields" : [
+      {
+        "label" : "Nombre",
+        "value" : "Alejandro",
+        "pre" : "Por",
+        "post" : "Tipo",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Casa",
+        "pre" : "Nombre",
+        "post" : "Descripción",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "pre" : "Nombre",
+        "post" : "Etiquetas",
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test pdf asset appendix",
+    "fileName" : "Alejandro.pdf",
+    "entityType" : "Asset",
+    "format" : "pdf",
+    "fields" : [
+      {
+        "label" : "Nombre",
+        "value" : "Alejandro",
+        "pre" : "Por",
+        "post" : "Tipo",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Casa",
+        "pre" : "Nombre",
+        "post" : "Descripción",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "pre" : "Nombre",
+        "post" : "Etiquetas",
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test pptx asset appendix",
+    "fileName" : "Alejandro.pptx",
+    "entityType" : "Asset",
+    "format" : "pptx",
+    "fields" : [
+      {
+        "label" : null,
+        "value" : "Alejandro",
+        "pre" : "Tipo",
+        "post" : "Por",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Casa",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "pre" : "Área (m²)",
+        "post" : "Ubicación",
+        "replaceLabelValueOrder" : true,
+        "replacePrePostOrder" : false,
+        "shouldBeFound" :true
+      }
+
+    ]
+  },
+  {
+    "description" : "Test docx organization appendix",
+    "fileName" : "La Familia.docx",
+    "entityType" : "Organization",
+    "format" : "docx",
+    "fields" : [
+      {
+        "label" : "Organizaciones",
+        "value" : "La Familia",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Cartel",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Estatus",
+        "value" : "Activo",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Número de miembros",
+        "value" : "11",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "ID",
+        "value" : "777",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test pdf organization appendix",
+    "fileName" : "La Familia.pdf",
+    "entityType" : "Organization",
+    "format" : "pdf",
+    "fields" : [
+      {
+        "label" : "Organizaciones",
+        "value" : "La Familia",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Cartel",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Estatus",
+        "value" : "Activo",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Número de",
+        "value" : "11",
+        "post" : "miembros",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "ID",
+        "value" : "777",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test pptx organization appendix",
+    "fileName" : "La Familia.pptx",
+    "entityType" : "Organization",
+    "format" : "pptx",
+    "fields" : [
+      {
+        //"label" : "Organizaciones",
+        "value" : "La Familia",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Cartel",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Estatus",
+        "value" : "Activo",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Número de miembros",
+        "replaceLabelValueOrder" : true,
+        "value" : "11",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "ID",
+        "value" : "777",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test docx person appendix",
+    "fileName" : "Pablo Escobar.docx",
+    "entityType" : "Person",
+    "format" : "docx",
+    "fields" : [
+      {
+        "label" : "Género",
+        "value" : "Femenino",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Estado civil",
+        "value" : "Casado(a)",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Religión",
+        "value" : "Ateo",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Ciudadano ilegal",
+        "value" : "Sí",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "RFC",
+        "value" : "RFC Data",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "CURP",
+        "value" : "curp",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "VISA para EUA",
+        "value" : "Sí",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Grupo sanguíneo",
+        "value" : "A rh +",
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test pdf person appendix",
+    "fileName" : "Pablo Escobar.pdf",
+    "entityType" : "Person",
+    "format" : "pdf",
+    "fields" : [
+      {
+        "label" : "Género",
+        "value" : "Femenino",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Estado civil",
+        "value" : "Casado(a)",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Religión",
+        "value" : "Ateo",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Ciudadano ilegal",
+        "value" : "Sí",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "RFC",
+        "value" : "RFC Data",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "CURP",
+        "value" : "curp",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "VISA para EUA",
+        "value" : "Sí",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Grupo sanguíneo",
+        "value" : "A rh +",
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test pptx person appendix",
+    "fileName" : "Pablo Escobar.pptx",
+    "entityType" : "Person",
+    "format" : "pptx",
+
+    "fields" : [
+      {
+        "label" : "Género",
+        "value" : "Femenino",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Estado civil",
+        "value" : "Casado(a)",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Religión",
+        "value" : "Ateo",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Ciudadano ilegal",
+        "value" : "Sí",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "RFC",
+        "value" : "RFC Data",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "CURP",
+        "value" : "curp",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "VISA para EUA",
+        "value" : "Sí",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Grupo sanguíneo",
+        "value" : "A rh +",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test docx phone appendix",
+    "fileName" : "97250558877.docx",
+    "entityType" : "Phone",
+    "format" : "docx",
+    "fields" : [
+      {
+        "label" : "Número",
+        "value" : "97250558877",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Casa",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "IMEI",
+        "value" : "IMEI",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "shouldBeFound" :true
+      }
+
+
+    ]
+  },
+  {
+    "description" : "Test pdf phone appendix",
+    "fileName" : "97250558877.pdf",
+    "entityType" : "Phone",
+    "format" : "pdf",
+    "fields" : [
+      {
+        "label" : "Número",
+        "value" : "97250558877",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Casa",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "IMEI",
+        "value" : "IMEI",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "shouldBeFound" :true
+      }
+
+
+    ]
+  },
+  {
+    "description" : "Test pptx phone appendix",
+    "fileName" : "97250558877.pptx",
+    "entityType" : "Phone",
+    "format" : "pptx",
+    "fields" : [
+      {
+        "label" : "Número",
+        "value" : "97250558877",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Casa",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "IMEI",
+        "value" : "IMEI",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test docx vehicle appendix",
+    "fileName" : "Autobus A canc 175 cm3 Azul claro 6766676.docx",
+    "entityType" : "Vehicle",
+    "format" : "docx",
+    "fields" : [
+      {
+        "label" : "Tipo",
+        "value" : "Autobus",
+
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Marca",
+        "value" : "A canc",
+
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Modelo",
+        "value" : "175 cm3",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Color",
+        "value" : "Azul claro",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Número de serie del motor",
+        "value" : "1111",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Número de serie del chasis",
+        "value" : "2222",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test pdf vehicle appendix",
+    "fileName" : "Autobus A canc 175 cm3 Azul claro 6766676.pdf",
+    "entityType" : "Vehicle",
+    "format" : "pdf",
+
+    "fields" : [
+      {
+        "label" : "Tipo",
+        "value" : "Autobus",
+
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Marca",
+        "value" : "A canc",
+
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Modelo",
+        "value" : "175 cm3",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Color",
+        "value" : "Azul claro",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Número de serie",
+        "value" : "1111",
+        "post" : "del motor",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Número de serie",
+        "value" : "2222",
+        "post" : "del chasis",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test pptx vehicle appendix",
+    "fileName" : "Autobus A canc 175 cm3 Azul claro 6766676.pptx",
+    "entityType" : "Vehicle",
+    "format" : "pptx",
+    "fields" : [
+      {
+        "label" : "Tipo",
+        "value" : "Autobus",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Marca",
+        "value" : "A canc",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Modelo",
+        "value" : "175 cm3",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Color",
+        "value" : "Azul claro",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Número de serie del motor",
+        "value" : "1111",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Número de serie del chasis",
+        "value" : "2222",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test docx weapon appendix",
+    "fileName" : "Ametralladora Adi (1315) gas gun.docx",
+    "entityType" : "Weapon",
+    "format" : "docx",
+    "fields" : [
+      {
+        "label" : "Número de serie",
+        "value" : "76541223",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Ametralladora",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Marca",
+        "value" : "Adi",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Modelo",
+        "value" : "(1315) gas gun",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Calibre mm",
+        "value" : "22###222 o 223 = 5.56 mm",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test pdf weapon appendix",
+    "fileName" : "Ametralladora Adi (1315) gas gun.pdf",
+    "entityType" : "Weapon",
+    "format" : "pdf",
+    "fields" : [
+      {
+        "label" : "Número de serie",
+        "value" : "76541223",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Ametralladora",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Marca",
+        "value" : "Adi",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Modelo",
+        "value" : "(1315) gas gun",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Calibre mm",
+        "value" : "22###222 o 223 = 5.56 mm",
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "shouldBeFound" :true
+      }
+    ]
+  },
+  {
+    "description" : "Test pptx weapon appendix",
+    "fileName" : "Ametralladora Adi (1315) gas gun.pptx",
+    "entityType" : "Weapon",
+    "format" : "pptx",
+    "fields" : [
+      {
+        "label" : "Número de serie",
+        "value" : "76541223",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Tipo",
+        "value" : "Ametralladora",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Marca",
+        "value" : "Adi",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Modelo",
+        "value" : "(1315) gas gun",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Calibre mm",
+        "value" : "22###222 o 223 = 5.56 mm",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      },
+      {
+        "label" : "Descripción",
+        "value" : "description",
+        "replaceLabelValueOrder" : true,
+        "shouldBeFound" :true
+      }
+    ]
+  }
+]
